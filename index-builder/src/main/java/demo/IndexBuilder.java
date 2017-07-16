@@ -97,7 +97,7 @@ public class IndexBuilder {
                 }
             }
             System.out.println();
-            log.info("{} ads index has been built" + count);
+            log.info(count + " ads index has been built");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -125,7 +125,7 @@ public class IndexBuilder {
                 }
             }
             System.out.println();
-            log.info("{} campaign index has been built" + count);
+            log.info(count + " campaign index has been built");
         }catch (IOException e) {
             e.printStackTrace();
         }
